@@ -3,7 +3,7 @@
 # This file contains the code for figure 7
 
 setwd("/Users/danielbrunner/Documents/Ausbildung/HSG/Masterstudium/Masterarbeit")
-source("./R-Code/Sim_functions v5.R")
+source("./R-Code/Sim_functions.R")
 
 library(dplyr)
 library(MASS)
