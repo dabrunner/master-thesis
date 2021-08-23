@@ -26,7 +26,7 @@ source("/Users/danielbrunner/Documents/Ausbildung/HSG/Masterstudium/Masterarbeit
 
 # The group lasso and the fused lasso are integrated into the ensemble learner.
 # Simulated as well as real data is prepared to test the ensemble learner.
-# FYI: Some functions from utils_ensemble have been extended, 
+# FYI: Some functions from utils_ensemble have been extended.
 
 
 
