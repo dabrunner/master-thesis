@@ -223,7 +223,6 @@ for(i in 1:length(lev)){
 return(data_rev)
 }
 
-
 # Function for the simulation study
 simulation <- function(n=500, levels=c(10, rep(3,9)), cat=10, cont=10, 
                         rho=0.3, SNR=3, 
@@ -976,6 +975,8 @@ low_rank_enc <- function(data, categorical, num_comp){
 }
 # Cross-Validation of Low Rank Encoding (Adapted from: Johannemann et al., 2019)
 num_comp <- function(data, categorical, response, model, folds=5, quiet = TRUE){
+  # The function produces an error, when new levels are in the testset
+  # This "starter function" gives 10 tries and sets the parameter to 1 otherwise
   options(warn=-1)
   r <- NULL
   attempt <- 1
