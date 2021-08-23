@@ -6,7 +6,7 @@
 # Performance Measure ####
 # mean-squared error 
 get_mse <- function (pred, obs) {
-  return(round(mean((pred - obs)^2)))
+  return(round(mean((pred - obs)^2),3))
 }
 
 #####

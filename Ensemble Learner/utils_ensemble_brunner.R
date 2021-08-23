@@ -1,3 +1,5 @@
+# This function is already in ensemble.R
+
 #' #' Creates the methods to be used in \code{\link{ensemble}}
 #' #'
 #' #' @param method Choose method from currently c("mean","ols",ridge","plasso",forest_grf","lasso")

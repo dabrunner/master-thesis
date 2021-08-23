@@ -2,7 +2,7 @@
 #############################################################################
 # This file contains the code for the simulations
 
-# Readme: the simulation has to be started two times, because keras will crash the first time 
+# README: the simulation has to be started two times, because keras will crash the first time 
 
 rm(list = ls(all = TRUE)) 
 # Load the packages
@@ -23,8 +23,8 @@ library(mlrCPO)
 
 
 # Working directory
-setwd("/Users/danielbrunner/Documents/Ausbildung/HSG/Masterstudium/Masterarbeit")
-source("./R-Code/Sim_functions.R")
+setwd("/Users/danielbrunner/Documents/Ausbildung/HSG/Masterstudium/Masterarbeit/Abgabe/master-thesis/Code")
+source("./Sim_functions.R")
 
 
 methods <- c("One-Hot", "Lasso",
